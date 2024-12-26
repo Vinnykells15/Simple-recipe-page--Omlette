@@ -1,0 +1,82 @@
+body {
+background-color: #f6ead4;
+font-family:'outfit';
+line-height: 1.75;
+color: rgb(25, 24, 24);
+margin: 50px;
+box-sizing: border-box;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+  src: url('assets/fonts/outfit/static/Outfit-Light.ttf');
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.contain {
+display:flexbox;
+width: 430px;
+padding: 20px;
+border-radius: 20px;
+background-color: white;
+margin: 10px auto;
+overflow: hidden;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom: -10px;
+  font-family: classic;
+  font-weight: light;
+}
+
+h3 {
+  color: brown;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+p, li {
+  font-size: 11px;
+}
+
+.preparation{
+  background-color: rgb(250, 239, 225);
+  padding: 5px;
+}
+
+.preparation h3 {
+  color: rgb(133, 84, 133);
+  font-size: 13px;
+}
+
+ol li::marker {
+  color: brown;
+  font-weight: bold;
+}
+
+.nutrition strong {
+  color: brown;
+  margin-left: 40%;
+}
+
+li{
+  padding-left: 10px;
+}
+
+.attribution {
+text-align: center;
+}
+
+
+@media  (max-width: 768px) {
+
+}
