@@ -48,7 +48,7 @@ p, li {
 }
 
 .preparation {
-  background-color: rgb(250, 239, 225);
+  background-color: rgb(250, 225, 239);
   padding: 5px;
 }
 
@@ -93,6 +93,10 @@ table tr:not(:last-child) {
 }
 
 @media (max-width: 768px) {
+body{
+  margin-left: 1.65rem;
+}
+
   .contain {
     width: 100%;
     padding: 10px;
@@ -111,4 +115,8 @@ table tr:not(:last-child) {
   p, li {
     font-size: 10px;
   }
+}
+
+.attribution{
+  font-size: 13px;
 }
