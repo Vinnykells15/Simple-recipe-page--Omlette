@@ -48,12 +48,12 @@ p, li {
 }
 
 .preparation {
-  background-color: rgb(250, 225, 239);
+  background-color:rgb(255, 234, 237);
   padding: 5px;
 }
 
 .preparation h3 {
-  color: rgb(158, 113, 158);
+  color: rgb(133, 84, 133);
   font-size: 13px;
 }
 
@@ -85,11 +85,19 @@ table tr:not(:last-child) {
 
 [data-cell="nutrient-value"] {
     color: brown;
-    font-weight:600;
+   font-weight:600;
 }
 
 .attribution {
   text-align: center;
+}
+
+.attribution a{
+  text-decoration: none;
+}
+
+.attribution a:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
